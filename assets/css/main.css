@@ -35,3 +35,15 @@ section {
   top: 130px;
   right: 15px;
 }
+
+.centro {
+  width: 150px;
+  height: 150px;
+  border-radius: 250px;
+  border: 4px solid #ffffff;
+  position: absolute;
+  top: 213px;
+  left: 410px;
+
+}
+}
