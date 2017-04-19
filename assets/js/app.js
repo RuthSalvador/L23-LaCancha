@@ -32,6 +32,4 @@ window.addEventListener("load", function(){
   pelota3.setAttribute("class", "pelota3");
   canchita.appendChild(pelota3);
 
-
-
 })
