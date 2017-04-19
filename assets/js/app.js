@@ -20,5 +20,18 @@ window.addEventListener("load", function(){
   centro.setAttribute("class", "centro");
   canchita.appendChild(centro);
 
+  var pelota1 = document.createElement("div");
+  pelota1.setAttribute("class", "pelota1");
+  canchita.appendChild(pelota1);
+
+  var pelota2 = document.createElement("div");
+  pelota2.setAttribute("class", "pelota2");
+  canchita.appendChild(pelota2);
+
+  var pelota3 = document.createElement("div");
+  pelota3.setAttribute("class", "pelota3");
+  canchita.appendChild(pelota3);
+
+
 
 })

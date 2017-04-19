@@ -13,37 +13,54 @@ section {
   height: 96%;
 }
 
-.arco1 {
+.arco1, .arco2 {
   box-sizing: border-box;
   width: 150px;
   height: 300px;
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;;
-  border-right: 4px solid #ffffff;
   position: absolute;
   top: 130px;
 }
 
+.arco1 {
+  border-right: 4px solid #ffffff;
+}
+
 .arco2 {
-  box-sizing: border-box;
-  width: 150px;
-  height: 300px;
-  border-top: 4px solid #ffffff;
-  border-bottom: 4px solid #ffffff;;
   border-left: 4px solid #ffffff;
-  position: absolute;
-  top: 130px;
   right: 15px;
 }
 
 .centro {
   width: 150px;
   height: 150px;
-  border-radius: 250px;
+  border-radius: 360px;
   border: 4px solid #ffffff;
   position: absolute;
   top: 213px;
   left: 410px;
-
 }
+
+.pelota1, .pelota2, .pelota3 {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 360px;
+  position: absolute;
+}
+
+.pelota1 {
+  top: 131px;
+  left: 150px
+}
+
+.pelota2 {
+  top: 100px;
+  left: 420px
+}
+
+.pelota3 {
+  bottom: 180px;
+  right: 160px
 }
